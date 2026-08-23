@@ -12,7 +12,7 @@ const UserRoutes = require('./Routes/User.routes');
 
 const app = express();
 app.use(cors({
-  origin: "https://notes-web-theta.vercel.app",
+  origin: "https://notes-web-production-4ba4.up.railway.app",
   credentials: true,
 }))
 
