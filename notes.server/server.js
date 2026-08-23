@@ -29,8 +29,8 @@ app.get("/", (req, res) => {
   res.send("Notes Backend Running!");
 });
 
-const host = process.env.HOST || "localhost";
-const port = process.env.PORT || 4000;
+const host = process.env.HOST || "0.0.0.0";
+const port = process.env.PORT || 8080;
 
 app.listen(port, host, async () => {
   await connectDB();
