@@ -11,9 +11,8 @@ const UserRoutes = require('./Routes/User.routes');
 
 
 const app = express();
-// https://notes-web-theta.vercel.app
 app.use(cors({
-  origin: " http://localhost:5173",
+  origin: "https://notes-web-theta.vercel.app",
   credentials: true,
 }))
 
